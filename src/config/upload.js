@@ -12,6 +12,7 @@ const storage = multer.diskStorage({
     },
 });
 
+// Configuração do middleware de upload usando o multer
 const upload = multer({
     storage,
     fileFilter: (req, file, cb) => {
