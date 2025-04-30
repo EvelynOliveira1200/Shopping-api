@@ -32,10 +32,5 @@ INSERT INTO brands (nome, pais_origem) VALUES
 ('Lancôme', 'França'),
 ('Unilever', 'Reino Unido');
 
-INSERT INTO cosmetics (nome, brand_id, categoria, quantidade_disponivel) VALUES
-('Lipstick', 1, 'Makeup', 100),
-('Foundation', 2, 'Makeup', 50),
-('Shampoo', 3, 'Hair Care', 200),
-('Conditioner', 4, 'Hair Care', 150);
+('Prada', 'Itália')
 
-DELETE TABLE brands;
